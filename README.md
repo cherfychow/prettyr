@@ -1,9 +1,16 @@
 # prettyR
 ### A collection of RStudio themes created out of procrastination
 
-Custom RStudio themes with full IDE styling inspired by Sublime Text, and adapted from [this One Dark Pro](https://github.com/johnnybarrels/rstudio-one-dark-pro-theme) and [Mojave](https://github.com/patrickshox/Mojave-Dark-RStudio-Theme) themes.
+Custom RStudio themes with full IDE styling inspired by Sublime Text, and adapted from [this One Dark Pro](https://github.com/johnnybarrels/rstudio-one-dark-pro-theme) and [Mojave](https://github.com/patrickshox/Mojave-Dark-RStudio-Theme) themes. Some colour palettes are from [base16 by Chris Kempson](https://github.com/chriskempson/base16).  
 
-Some colour palettes are from [base16 by Chris Kempson](https://github.com/chriskempson/base16).
+## Installation
+```r
+rstudioapi::addTheme('https://raw.githubusercontent.com/cherfychow/prettyr/main/THEMENAMEHERE.rstheme')
+```
+If you'd like to use it right away, you can also add the `apply = TRUE` argument.
+Themes look best if function highlighting and rainbow parentheses are enabled in Global Options > Code > Display
+
+## Themes
 
 ### Beach Towel
 Inspired by Barbie-mania with less pink  
